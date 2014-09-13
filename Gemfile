@@ -48,9 +48,6 @@ gem 'rails-html-sanitizer', '~> 1.0'
 
 #gem 'foundation-rails'
 
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
