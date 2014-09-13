@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Foundation name:</strong>
+  <%= @foundation.foundation_name %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @foundation.username %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @foundation.email %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @foundation.password %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @foundation.location %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @foundation.website %>
+</p>
+
+<%= link_to 'Edit', edit_foundation_path(@foundation) %> |
+<%= link_to 'Back', foundations_path %>
