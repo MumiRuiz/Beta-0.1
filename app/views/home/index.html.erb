@@ -6,38 +6,156 @@
 			<section class="slider-holder">
 				<div class="container">
 					<div class="flexslider carousel">
-						<ul class="slides">
-							<li>
-								<img src="http://placehold.it/1122x480" alt="" />
-							</li>
-							<li>
-								<img src="http://placehold.it/1122x480" alt="" />
-							</li>
-							<li>
-								<img src="http://placehold.it/1122x480" alt="" />
-							</li>
-						</ul>
+								<ul class="slides">
+									<li>
+										<%= image_tag("lucca-abstract.png")%>
+
+									</li>
+									<li>
+										<%= image_tag("lucca-abstract.png")%>
+									</li>
+									<li>
+										<%= image_tag("lucca-abstract.png")%>
+									</li>
+								</ul>
 
 						<div class="search-box visible-md visible-lg">
-							<h2>Find an Awesome PetSitter Near You</h2>
+							<h2>Busca una mascota</h2>
 							<form action="#" method="POST" role="form">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="All Pet Sitters">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Any Location">
-								</div>
+
 								<div class="form-group">
 									<div class="select-style">
 										<select class="form-control">
-											<option>Service Type</option>
-											<option>Pet Sitter</option>
-											<option>Dog Sitter</option>
-											<option>Cat Sitter</option>
+											<option>PAIS</option>
+											<option>Colombia</option>
 										</select>
 									</div>
+							
+								<div class="form-group">
+											<div class="select-style">
+												<select class="form-control">
+													<option>DEPARTAMENTO</option>
+													<option>Amazonas</option>
+													<option>Antioquia</option>
+													<option>Arauca</option>
+													<option>Atlántico</option>
+													<option>Bolívar</option>
+													<option>Boyacá</option>
+													<option>Caldas</option>
+													<option>Caquetá</option>
+													<option>Casanare</option>
+													<option>Cauca</option>
+													<option>Cesar</option>
+													<option>Chocó</option>
+													<option>Córdoba</option>
+													<option>Cundinamarca</option>
+													<option>Guainía</option>
+													<option>Guaviare</option>
+													<option>Huila</option>
+													<option>La Guajira</option>
+													<option>Magdalena</option>
+													<option>Meta</option>
+													<option>Nariño</option>
+													<option>Norte de Santander</option>
+													<option>Putumayo</option>
+													<option>Quindío</option>
+													<option>Risaralda</option>
+													<option>San Andrés y Providencia</option>
+													<option>Santander</option>
+													<option>Sucre</option>
+													<option>Tolima</option>
+													<option>Valle del Cauca</option>
+													<option>Vaupés</option>
+													<option>Vichada</option>
+												</select>
+											</div>
+
+								<div class="form-group">
+											<div class="select-style">
+												<select class="form-control">
+													<option>CIUDAD</option>
+													<option>Arauca</option>
+													<option>Armenia</option>
+													<option>Barranquilla</option>
+													<option>Bogotá</option>
+													<option>Bucaramanga</option>
+													<option>Cali</option>
+													<option>Cartagena de Indias</option>
+													<option>Cucutá</option>
+													<option>Florencia</option>
+													<option>Ibagué</option>
+													<option>Inírida</option>
+													<option>Leticia</option>
+													<option>Manizalez</option>
+													<option>Medellín</option>
+													<option>Mitú</option>
+													<option>Mocoa</option>
+													<option>Montería</option>
+													<option>Neiva</option>
+													<option>Pasto</option>
+													<option>Pereira</option>
+													<option>Popayán</option>
+													<option>Puerto Carreño</option>
+													<option>Quibdó</option>
+													<option>Riohacha</option>
+													<option>San Andrés</option>
+													<option>San José del Guaviare</option>
+													<option>Santa Marta</option>
+													<option>Sincelejo</option>
+													<option>Tunja</option>
+													<option>Valledupar</option>
+													<option>Villavicencio</option>
+													<option>Yopal</option>
+												</select>
+											</div>
+
+
+								<div class="form-group">
+											<div class="select-style">
+												<select class="form-control">
+													<option>TIPO DE MASCOTA</option>
+													<option>Perro</option>
+													<option>Gato</option>
+													<option>Cualquiera</option>
+												</select>
+											</div>
+
+								<div class="form-group">
+									<div class="select-style">
+										<select class="form-control">
+											<option>GÉNERO</option>
+											<option>Macho</option>
+											<option>Hembra</option>
+											<option>Cualquiera</option>
+										</select>
+									</div>
+
+								<div class="form-group">
+									<div class="select-style">
+										<select class="form-control">
+											<option>TAMAÑO</option>
+											<option>Pequeño</option>
+											<option>Mediano</option>
+											<option>Grande</option>
+											<option>Extra Grande</option>
+											<option>Cualquiera</option>
+										</select>
+									</div>
+								<div class="form-group">
+									<div class="select-style">
+										<select class="form-control">
+											<option>EDAD</option>
+											<option>Cachorro</option>
+											<option>Adulto</option>
+											<option>Senior</option>
+											<option>Cualquiera</option>
+										</select>
+									</div>
+
 								</div>
-								<button type="submit" class="btn btn-success">Search</button>
+								</div>
+								</div>
+								<button type="submit" class="btn btn-success">Buscar</button>
 							</form>
 						</div>
 					</div>
@@ -53,100 +171,186 @@
 					<section class="section-light section-nomargin">
 						<div class="row">
 							<div class="col-md-8">
-								<h2 class="with-subtitle" data-animation="fadeInUp" data-animation-delay="0">Latest Listings <small data-animation="fadeInUp" data-animation-delay="100">Subtitle goes here</small></h2>
+								<h2 class="with-subtitle" data-animation="fadeInUp" data-animation-delay="0">Últimas mascotas <small data-animation="fadeInUp" data-animation-delay="100">     </small></h2>
 								<div class="row">
-									<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="0">
-										<div class="job-listing-box">
-											<figure class="job-listing-img">
-												<a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-											</figure>
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">Samantha Doe</a></h4>
+		<!-- NEW PETS #1 -->
+										<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="0">
+											<div class="job-listing-box">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("dixi.png")%></a>
+												</figure>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">Dixi</a></h4>
+													<p>Se rescato cuando su familia la abandono al cambiar de residencia y ella se echaba en la puerta esperando a su familia Ella duro una semana larga y lloraba mucho. Ella es de carácter tranquilo, muy dulce. Se la lleva muy bien con cualquier persona, es recomendable personas adulta por el carácter calmado. Su mirada siempre es de una perrita triste, queremos ubicarla en un hogar donde puedan estar muy pendiente de ella y la consientan mucho.</p>
+												</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Perros</li>
+														<li class="age">Edad: 2 años</li>
+														<li class="gender">Hembra</li>
+														<li class="size">Tamaño: Mediana</li>
+														<li class="location"><a href="#">Bogotá, Co</a></li>
+														<li class="date">Posted 1 day ago</li>
+													</ul>
+												</footer>
+											</div>
+										</div>
+		<!-- NEW PETS #2 -->
+										<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="200">
+											<div class="job-listing-box">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("max.png")%></a>
+												</figure>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">Max</a></h4>
+													<p>Muy calmado, cruce de Beagle, de carácter dulce, amigable, es tranquilo amistoso con los demás perros, se encontro atropellado y tenia una herida en su pata. Fue rehabilitado y buscamos un hogar que pueda estar dentro de una casa, no para fincas.</p>
+												</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Perros</li>
+														<li class="age">Edad: 1 año</li>
+														<li class="gender">Macho</li>
+														<li class="size">Tamaño: Mediano</li>
+														<li class="location"><a href="#">Bogotá, Co</a></li>
+														<li class="date">Posted 2 days ago</li>
+													</ul>
+												</footer>
+											</div>
+										</div>
+		<!-- NEW PETS #3 -->
+										<div class="clearfix visible-xs"></div>
+										<div class="spacer visible-xs"></div>
+
+										<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="400">
+											<div class="job-listing-box">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("manchitas.png")%></a>
+												</figure>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">Manchitas</a></h4>
+													<p>Es muy amigable, dócil, le encanta jugar, se la lleva muy bien con perros, niños y adultos. Nos sabemos como la va con gatos. Fue rescatado de Soacha cuando lo amarraron a un poste y tenia en el cuello un alambre de puas que le causó con heridas</p>
+												</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Perros</li>
+														<li class="age">Edad: </li>
+														<li class="gender">Macho</li>
+														<li class="size">Tamaño: Mediano</li>
+														<li class="location"><a href="#">Bogotá, Co</a></li>
+														<li class="date">Posted 2 days ago</li>
+													</ul>
+												</footer>
+											</div>
+										</div>
+		<!-- NEW PETS #4 -->							
+										<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="600">
+											<div class="job-listing-box">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("cherter.png")%></a>
+												</figure>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">Cherter</a></h4>
+													<p>Muy amigable, activo y juguetón. Se la lleva muy bien con otros perros, niños y adultos. Es de pelo alambre dorado. Se rescató cuando se encontró extraviado.</p>
+												</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Perros</li>
+														<li class="age">Edad: 1 año </li>
+														<li class="gender">Macho</li>
+														<li class="size">Tamaño: Mediano</li>
+														<li class="location"><a href="#">Bogotá, Co</a></li>
+														<li class="date">Posted 2 days ago</li>
+													</ul>
+												</footer>
+											</div>
+										</div>
+<!-- 
+										<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="800">
+											<div class="job-listing-box">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("pascual.png")%></a>
+												</figure>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">Pascual</a></h4>
+													<p>Muy activo y amigable. Se encontró extraviado, lleva tiempo pagando guardería. Cada vez que alguien se acerca quisiera saltar cogerlo y pegarse para que lo consientan. Pascual se la lleva bien con otros perros, no sabemos con gatos y con las personas es muy amigable. Por lo activo recomendamos sea para personas adultas que puedan disponer de tiempo.</p>
+												</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Perros</li>
+														<li class="age">Edad: 2 año </li>
+														<li class="gender">Macho</li>
+														<li class="size">Tamaño: Grande</li>
+														<li class="location"><a href="#">Bogotá, Co</a></li>
+														<li class="date">Posted 2 days ago</li>
+													</ul>
+												</footer>
+											</div>
+										</div> -->
+
+
+
+								</div>
+							</div>
+						</div>		
+					</section>
+				</div>
+			</section>
+<!-- Featured Listings -->
+					<!-- <section>
+						
+								<div class="owl-carousel owl-theme owl-featured-listings">
+									<div class="job-listing-box featured">
+												<figure class="job-listing-img">
+													<a href="/"><%= image_tag("lucca-abstract.png")%></a>
+												</figure>
+											<div class="job-listing-holder">
+												<div class="job-listing-body">
+												<h4 class="name"><a href="job-profile.html">Dixi</a></h4>
 												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 											</div>
+												<footer class="job-listing-footer">
+													<ul class="meta">
+														<li class="category">Cat Sitter</li>
+														<li class="location"><a href="#">Orlando, FL</a></li>
+														<li class="date">Posted 5 days ago</li>
+													</ul>
+												</footer>
+									</div>
+								</div>
+
+								<div class="job-listing-box featured">
+										<figure class="job-listing-img">
+											<a href="/"><%= image_tag("pascual.png")%></a>
+										</figure>
+									<div class="job-listing-holder">
+											<div class="job-listing-body">
+												<h4 class="name"><a href="job-profile.html">Pascual</a></h4>
+												<p>Muy activo y amigable. Se encontró extraviado, lleva tiempo pagando guardería. Cada vez que alguien se acerca quisiera saltar cogerlo y pegarse para que lo consientan. Pascual se la lleva bien con otros perros, no sabemos con gatos y con las personas es muy amigable. Por lo activo recomendamos sea para personas adultas que puedan disponer de tiempo</p>
+											</div>
+
+
 											<footer class="job-listing-footer">
 												<ul class="meta">
-													<li class="category">Cat Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
+													<li class="category">Perros</li>
+													<li class="age">Edad: 2 años</li>
+													<li class="size">Tamaño: Grande</li>
+													<li class="location"><a href="#">Bogotá, Co</a></li>
 													<li class="date">Posted 1 day ago</li>
 												</ul>
 											</footer>
-										</div>
 									</div>
-									<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="200">
-										<div class="job-listing-box">
-											<figure class="job-listing-img">
-												<a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-											</figure>
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">Molly Warren</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-											<footer class="job-listing-footer">
-												<ul class="meta">
-													<li class="category">Dog Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
-													<li class="date">Posted 2 days ago</li>
-												</ul>
-											</footer>
-										</div>
-									</div>
+								</div> -->
 
-									<div class="clearfix visible-xs"></div>
-									<div class="spacer visible-xs"></div>
-
-									<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="400">
-										<div class="job-listing-box">
+<!-- 
+								<div class="job-listing-box featured">
 											<figure class="job-listing-img">
-												<a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
+												<a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
 											</figure>
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">Jeff Black</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-											<footer class="job-listing-footer">
-												<ul class="meta">
-													<li class="category">Pet Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
-													<li class="date">Posted 3 days ago</li>
-												</ul>
-											</footer>
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-3 col-md-3" data-animation="fadeInLeft" data-animation-delay="600">
-										<div class="job-listing-box">
-											<figure class="job-listing-img">
-												<a href="job-profile.html"><img src="http://placehold.it/160x160" alt=""></a>
-											</figure>
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">Susan Smith</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-											<footer class="job-listing-footer">
-												<ul class="meta">
-													<li class="category">Cat Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
-													<li class="date">Posted 5 days ago</li>
-												</ul>
-											</footer>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4" data-animation="fadeInRight" data-animation-delay="0">
-								<div class="spacer-lg visible-sm visible-xs"></div>
-								<h2>Featured Listings</h2>
-<!-- Featured Listings -->
-								<div class="owl-carousel owl-theme owl-featured-listings">
-									<div class="job-listing-box featured">
-										<figure class="job-listing-img">
-											<a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
-										</figure>
 										<div class="job-listing-holder">
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">John Doe</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
+												<div class="job-listing-body">
+													<h4 class="name"><a href="job-profile.html">John Doe</a></h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+												</div>
 											<footer class="job-listing-footer">
 												<ul class="meta">
 													<li class="category">Cat Sitter</li>
@@ -155,51 +359,15 @@
 												</ul>
 											</footer>
 										</div>
-									</div>
-									<div class="job-listing-box featured">
-										<figure class="job-listing-img">
-											<a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
-										</figure>
-										<div class="job-listing-holder">
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">John Doe</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-											<footer class="job-listing-footer">
-												<ul class="meta">
-													<li class="category">Cat Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
-													<li class="date">Posted 5 days ago</li>
-												</ul>
-											</footer>
-										</div>
-									</div>
-									<div class="job-listing-box featured">
-										<figure class="job-listing-img">
-											<a href="job-profile.html"><img src="http://placehold.it/708x671" alt=""></a>
-										</figure>
-										<div class="job-listing-holder">
-											<div class="job-listing-body">
-												<h4 class="name"><a href="job-profile.html">John Doe</a></h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-											<footer class="job-listing-footer">
-												<ul class="meta">
-													<li class="category">Cat Sitter</li>
-													<li class="location"><a href="#">Orlando, FL</a></li>
-													<li class="date">Posted 5 days ago</li>
-												</ul>
-											</footer>
-										</div>
-									</div>
-								</div>
+								</div> -->
+								
 <!-- Featured Listings / End -->
 						
-							</div>
-						</div>
+						<!-- 	</div>
+						</div> -->
 					</section>
 <!-- Light Section / End -->
-
+		</div>
 <!-- Section -->
 					<section class="section section-nomargin">
 						<div class="row">
@@ -389,4 +557,4 @@
 
 				</div>
 			</section>
-<!-- Page Content / End -->
+			<!-- Page Content / End -->

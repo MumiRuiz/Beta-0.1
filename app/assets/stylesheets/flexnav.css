@@ -34,7 +34,7 @@
     z-index: 2;
     overflow: hidden;
     color: #222222;
-    background: #a6a6a2;
+    background: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .flexnav li ul {
     width: 100%; }
@@ -46,7 +46,7 @@
     overflow: visible; }
   .flexnav li ul li a {
     display: block;
-    background: #b2b2af; }
+    background: #78DAFA; }
   .flexnav ul li ul li a {
     background: #bfbfbc; }
   .flexnav ul li ul li ul li a {
@@ -97,7 +97,7 @@
       font-size: 16px;
       position: relative;
       top: 1em;
-      color: #666; }
+    .flexnav li a {  color: #666; }
 
 @media all and (min-width: 992px) {
   body.one-page {

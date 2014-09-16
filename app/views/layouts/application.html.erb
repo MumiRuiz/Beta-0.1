@@ -13,7 +13,7 @@
 	================================================== -->
 	<meta charset="utf-8">
 	<title>Adopta-me</title>
-	<meta name="description" content="Adopta-me es una base de datos en línea que permite la búsqueda de mascotas sin hogar disponibles para adopción en Colombia.">
+	<meta name="description" content="Adopta-me es una base de datos en línea que permite la búsqueda de mascotas sin hogar elementonibles para adopción en Colombia.">
 	<meta name="author" content="Adopta-me">
 
 
@@ -75,12 +75,14 @@
 				<div class="container">
 					<div class="header-top-left">
 						<ul class="header-top-nav">
-							<li><a href="pages-faqs.html">FAQs</a></li>
+							<span class="register">
+							<a href="#" class="btn btn-sm btn-warning">Registrate aquí</a>
+						</span>
 						</ul>
 					</div>
 					<div class="header-top-right">
 						<span class="register">
-							Have an account? <a href="#" class="btn btn-sm btn-warning">Sign In</a>
+							¿Ya tienes una cuenta? <a href="#" class="btn btn-sm btn-warning">Inicia Sesión</a>
 						</span>
 					</div>
 				</div>
@@ -90,7 +92,7 @@
 <!-- Logo -->
 					<div class="logo">
 						<!-- "/" return to root on click -->
-						<a href="/"><%= image_tag("logo272x191.png")%></a>
+						<a href="/"><%= image_tag("logo-adoptame-alpha200.png")%></a>
 						<!-- <h1><a href="index.html"><span>Pet</span>Sitter</a></h1>
 						<p class="tagline">Find an Awesome PetSitter</p> -->
 					</div>
@@ -111,7 +113,7 @@
 							<li><a href="https://www.facebook.com/pages/Adopta-Me/319083928262527"><i class="fa fa-facebook"></i></a></li>
 							<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
 							<!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="http://instagram.com/adopota_me"><i class="fa fa-instagram"></i></a></li>
 							<!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
 						</ul>
 			      </div>
@@ -123,22 +125,26 @@
 			<nav class="nav-main">
 				<div class="container">
 					<ul data-breakpoint="992" class="flexnav">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="#">Pages</a>
-							<ul>
-								<li><a href="page-about.html">About Us</a></li>
-								<li><a href="page-services.html">Services</a></li>
-								<li><a href="page-team.html">Team</a></li>
-								<li><a href="page-team-member.html">Team Member</a></li>
-								<li><a href="page-faqs.html">FAQs</a></li>
-								<li><a href="page-fullwidth.html">Full Width</a></li>
-								<li><a href="page-left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="page-right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="page-404.html">404</a></li>
-								<li><a href="page-coming-soon.html">Coming Soon</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Features</a>
+
+<!-- Nav Bar Options Link: Home  -->						
+						<li class="active"><a href="index.html">Inicio</a></li>
+<!-- Nav Bar Options Link: Pages  -->
+							<li><a href="#">Pages</a>
+								<ul>
+									<li><a href="page-about.html">About Us</a></li>
+									<li><a href="page-services.html">Services</a></li>
+									<li><a href="page-team.html">Team</a></li>
+									<li><a href="page-team-member.html">Team Member</a></li>
+									<li><a href="page-faqs.html">FAQs</a></li>
+									<li><a href="page-fullwidth.html">Full Width</a></li>
+									<li><a href="page-left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="page-right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="page-404.html">404</a></li>
+									<li><a href="page-coming-soon.html">Coming Soon</a></li>
+								</ul>
+							<li>
+<!-- Nav Bar Options Link: Foundations  -->						
+						<li><a href="#">Fundaciones</a>
 							<ul>
 								<li><a href="features-shortcodes.html">Shortcodes</a></li>
 								<li><a href="features-pricing-tables.html">Pricing Tables</a></li>
@@ -147,7 +153,16 @@
 								<li><a href="features-icons.html">Icons</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Pet Sitters</a>
+
+<!-- Nav Bar Options Link: Contacts  -->						
+						<li><a href="contacts.html">Contacts</a></li>
+					</ul>
+				</div>
+			</nav>
+<!-- Navigation / End -->
+
+<!-- Nav Bar Options Link: Services  -->						
+						<!-- <li><a href="#">Pet Sitters</a>
 							<ul>
 								<li><a href="job-post-profile.html">Post a Profile</a></li>
 								<li><a href="job-post-job.html">Post a Job</a></li>
@@ -155,8 +170,10 @@
 								<li><a href="job-dashboard.html">Dashboard</a></li>
 								<li><a href="job-profile.html">Profile</a></li>
 							</ul>
-						</li>
-						<li><a href="portfolio-3cols.html">Portfolio</a>
+						</li> -->
+
+<!-- Nav Bar Options Link: Portfolio  -->						
+						<!-- <li><a href="portfolio-3cols.html">Portfolio</a>
 							<ul>
 								<li><a href="portfolio-2cols.html">Portfolio 2 cols</a></li>
 								<li><a href="portfolio-3cols.html">Portfolio 3 cols</a></li>
@@ -165,20 +182,19 @@
 								<li><a href="portfolio-single-halfwidth.html">Single Half Width</a></li>
 								<li><a href="portfolio-single-fullwidth.html">Single Full Width</a></li>
 							</ul>
-						</li>
-						<li><a href="blog-right-sidebar.html">Blog</a>
+						</li> -->
+
+<!-- Nav Bar Options Link: Blog  -->						
+						<!-- <li><a href="blog-right-sidebar.html">Blog</a>
 							<ul>
 								<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
 								<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
 								<li><a href="blog-fullwidth.html">Blog Full Width</a></li>
 								<li><a href="blog-post.html">Single Post</a></li>
 							</ul>
-						</li>
-						<li><a href="contacts.html">Contacts</a></li>
-					</ul>
-				</div>
-			</nav>
-<!-- Navigation / End -->
+						</li> -->
+
+
 			
 		</header>
 
@@ -194,15 +210,15 @@
 							<div class="col-sm-6 col-md-2">
 <!-- Widget :: Custom Menu -->
 								<div class="widget_nav_menu widget widget__footer">
-									<h3 class="widget-title">Information</h3>
+									<h3 class="widget-title">Información</h3>
 									<div class="widget-content">
 										<ul>
-											<li><a href="#">FAQ’s</a></li>
+											<!-- <li><a href="#">FAQ’s</a></li>
 											<li><a href="#">Press</a></li>
-											<li><a href="#">Testimonials</a></li>
-											<li><a href="#">About Us</a></li>
-											<li><a href="#">Expert Advice</a></li>
-											<li><a href="#">Contact Us</a></li>
+											<li><a href="#"></a></li> -->
+											<li><a href="#">Sobre Nosotros</a></li>
+											<li><a href="#">Preguntas Frecuentes</a></li>
+											<li><a href="#">Contáctenos</a></li>
 										</ul>
 									</div>
 								</div>
@@ -211,14 +227,14 @@
 							<div class="col-sm-6 col-md-2">
 <!-- Widget :: Categories -->
 								<div class="widget_categories widget widget__footer">
-									<h3 class="widget-title">Categories</h3>
+									<h3 class="widget-title">Servicios</h3>
 									<div class="widget-content">
 										<ul>
-											<li><a href="#">Pet Care</a></li>
-											<li><a href="#">Pet Sitters</a></li>
-											<li><a href="#">Dog Walkers</a></li>
-											<li><a href="#">Pet Care Jobs</a></li>
-											<li><a href="#">Pet Care Costs</a></li>
+											<li><a href="#">Adopciones</a></li>
+											<li><a href="#">Apadrinamientos</a></li>
+											<li><a href="#">Donaciones</a></li>
+											<li><a href="#">Voluntarios</a></li>
+											<!-- <li><a href="#">Pet Care Costs</a></li> -->
 										</ul>
 									</div>
 								</div>
@@ -230,20 +246,12 @@
 							<div class="col-sm-6 col-md-4">
 <!-- Widget :: Latest Posts -->
 								<div class="latest-posts-widget widget widget__footer">
-									<h3 class="widget-title">Recent Posts</h3>
+									<!-- <h3 class="widget-title"></h3> -->
 									<div class="widget-content">
-										<ul class="latest-posts-list">
-											<li>
-												<figure class="thumbnail"><a href="#"><img src="http://placehold.it/144x84" alt=""></a></figure>
-												<span class="date">February, 18 2014</span>
-												<h5 class="title"><a href="#">Morbi urna mi, sollicitudin eget nibh fringilla, dignissim mattis</a></h5>
-											</li>
-											<li>
-												<figure class="thumbnail"><a href="#"><img src="http://placehold.it/144x84" alt=""></a></figure>
-												<span class="date">January, 21 2014</span>
-												<h5 class="title"><a href="#">Ut mauris arcu, fringilla at ipsum in, porta molestie nisi.</a></h5>
-											</li>
-										</ul>
+<!-- Api Twitter Widget Last Tweets -->
+										<a class="twitter-timeline"  href="https://twitter.com/Adoptame_co" data-widget-id="510916307567378432">Tweets por @Adoptame_co</a>
+            							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- End Api Twitter Widget Last Tweets -->        
 									</div>
 								</div>
 <!-- /Widget :: Latest Posts -->
@@ -251,9 +259,9 @@
 							<div class="col-sm-6 col-md-4">
 								<!-- Widget :: Newsletter -->
 								<div class="widget_newsletter widget widget__footer">
-									<h3 class="widget-title">Get Our Newsletter</h3>
+									<h3 class="widget-title">Suscribete </h3>
 									<div class="widget-content">
-										<p>Nulla tincidunt sollicitudin tristique. Sed sed metus malesuada, semper dolor sit amet, eleifend libero. </p>
+										<p>¿Quieres estar al tanto de nuestras últimas noticias y actualizaciones? Suscribete ahora!</p>
 
 										<form action="#" method="POST" role="form">
 											<div class="row">
@@ -278,17 +286,18 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6 col-md-4">
-								Copyright &copy; 2014  <a href="index.html">PetSitter</a> &nbsp;| &nbsp;All Rights Reserved
+								Copyright &copy; 2014  <a href="index.html">Adopta-me</a> &nbsp;| &nbsp;All Rights Reserved
 							</div>
 							<div class="col-sm-6 col-md-8">
 								<div class="social-links-wrapper">
 									<span class="social-links-txt">Keep in Touch</span>
 									<ul class="social-links social-links__light">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										<li><a href="#"><i class="fa fa-rss"></i></a></li>
+										<li><a href="https://twitter.com/Adoptame_co"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.facebook.com/pages/Adopta-Me/319083928262527"><i class="fa fa-facebook"></i></a></li>
+										<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+										<!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
+										<li><a href="http://instagram.com/adopota_me"><i class="fa fa-instagram"></i></a></li>
+										<!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
 									</ul>
 								</div>
 							</div>
