@@ -27,6 +27,8 @@
     font-size: 100%;
     position: relative;
     overflow: hidden; }
+
+    /*BACKGROUND FOR MENU FLEXNAV*/
   .flexnav li a {
     position: relative;
     display: block;
@@ -34,7 +36,7 @@
     z-index: 2;
     overflow: hidden;
     color: #222222;
-    background: #fff;
+    background: #f8ffe8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .flexnav li ul {
     width: 100%; }
